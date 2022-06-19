@@ -129,4 +129,4 @@ void free_all(void);
 void (*handle_opcode(void))(stack_t **stack, unsigned int line_num);
 int parse_l(char *line);
 
-#endif
+#endif /* _MONTY_H_ */
